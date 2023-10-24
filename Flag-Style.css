@@ -1,0 +1,32 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f0f8ff;
+flex-direction: column;
+margin: 100px;
+padding: 100px;
+}
+
+.Container-1G
+{
+background-color: black;
+    height: 100px;
+    width: 400px;
+    border: solid black 2px;
+}
+.Container-2G
+{
+background-color: red;
+height: 100px;
+width: 400px;
+border: solid black 2px;
+}
+.Container-3G
+{
+    background-color: yellow;
+    height: 100px;
+    width: 400px;
+    border: solid black 2px;
+}
+
