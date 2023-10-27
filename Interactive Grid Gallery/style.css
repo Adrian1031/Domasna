@@ -1,0 +1,133 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 50%;
+  font-size: 1.2em;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+.main-title {
+	text-align: center;
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.intro {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 50%;
+  font-size: 90%;
+  text-align: left;
+  columns: 2;
+  column-gap: 10px;
+}
+
+.intro p {
+  margin: 0 0 1em;
+}
+
+
+.colophon {
+	padding: 2em;
+	background: hsl(0, 0%, 10%);
+	color: white;
+  font-size: 90%;
+	text-align: center;
+}
+
+.colophon a {
+	color: white;
+}
+
+.cards {
+	max-width: 25em;
+	margin: 1em auto;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.cards a {
+	display: block;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.caption {
+	padding: 1em;
+	font-size: 90%;
+	color: black;
+}
+
+.caption-title {
+	margin: 0;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+.location {
+  padding: .5em 0;
+  color: hsl(0, 0%, 40%);
+}
+
+		.cards {
+			margin: 0 auto;
+			padding: 1em;
+		}
+    
+    .card-item,
+    .card-item a {
+      display: flex;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    .cards a:focus,
+		.cards a:hover {
+			outline: 1px solid hsl(0, 0%, 80%);
+		}
+    
+    
+		.card {
+			margin: .5em;
+			display: grid;
+			grid-template-columns: 8em auto;
+      overflow: hidden;
+		}
+
+    
+    .caption {
+      background: white;
+    }
+    
+	
+
+		.cards {
+			max-width: none;
+			margin: 1em 0;
+      padding: 0 1em;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 25em);
+			grid-gap: 1em;
+			justify-content: center;
+		}
+
+		.double {
+			grid-row: span 3;
+		}
+
+		.double .card {
+			display: block;
+		}
+    
+    .double img {
+      height: calc( (100% / 3) * 2 + .5em);
+    }
+
+	
