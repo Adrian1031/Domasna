@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+    margin: 0px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.menu {
+    padding-top: 15px;
+    height: 35px;
+}
+
+/* DJ CONTENT */
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    color:red
+}
+
+.box {
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+a {
+    color: black;
+}
+
+/*CONCERT CONTENT*/
+
+.events {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background-color: rgb(43, 42, 42);
+    color: whitesmoke;
+    padding: 40px;
+    gap: 30px;
+}
+
+.events h2 {
+    font-weight: lighter;
+    font-size: 200%;
+}
+
+.concert {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 150%;
+}
+
+.concert img {
+    width: 150px;
+}
+
+.concert_data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-color: white;
+    background-color:rgb(43, 42, 42);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
